@@ -9,6 +9,8 @@ app.use(cors());
 app.use(express.json());
 app.use(UserRoute);
 
-app.listen(8080, () => {
+app.listen(5000, () => {
   console.log("server running at http://localhost:5000");
 });
+
+module.exports = app;
